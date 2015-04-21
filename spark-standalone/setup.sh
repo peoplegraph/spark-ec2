@@ -31,3 +31,6 @@ sleep 20
 
 # Start Workers
 $BIN_FOLDER/start-slaves.sh
+
+# Start the history server
+$BIN_FOLDER/start-history-server.sh /tmp/spark-events
